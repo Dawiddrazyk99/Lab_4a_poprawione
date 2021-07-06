@@ -5,6 +5,9 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import pl.lublin.wsei.java.cwiczenia.test.TestFileRead;
+import pl.lublin.wsei.java.cwiczenia.test.TestInfografika;
+import pl.lublin.wsei.java.cwiczenia.test.TestRegEx;
 
 public class Main extends Application {
 
@@ -14,6 +17,9 @@ public class Main extends Application {
         primaryStage.setTitle("Hello World");
         primaryStage.setScene(new Scene(root, 300, 275));
         primaryStage.show();
+        //TestFileRead.main("");
+        //TestRegEx.main("");
+        TestInfografika.main("");
     }
 
 
