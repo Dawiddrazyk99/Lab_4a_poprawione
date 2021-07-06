@@ -6,6 +6,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import pl.lublin.wsei.java.cwiczenia.test.TestFileRead;
+import pl.lublin.wsei.java.cwiczenia.test.TestGusInfoGraphicList;
 import pl.lublin.wsei.java.cwiczenia.test.TestInfografika;
 import pl.lublin.wsei.java.cwiczenia.test.TestRegEx;
 
@@ -19,7 +20,8 @@ public class Main extends Application {
         primaryStage.show();
         //TestFileRead.main("");
         //TestRegEx.main("");
-        TestInfografika.main("");
+        //TestInfografika.main("");
+        TestGusInfoGraphicList.main("");
     }
 
 
